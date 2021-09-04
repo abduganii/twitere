@@ -1,0 +1,125 @@
+.sinup-h1{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 84px;
+    line-height: 98px;
+    
+    color: #000000;
+    margin-top: 57px;
+    margin-bottom: 46px;
+    
+}
+.sinup{
+    display: flex;
+    align-items: center;
+}
+.sinup div{
+    margin-left: 41px;
+}
+.sinup-h2{
+    font-weight: 900;
+font-size: 42px;
+line-height: 49px;
+
+color: #000000;
+margin-bottom: 31px;
+}
+.sinup-list{
+    list-style: none;
+}
+.sinup-list-item{
+    opacity: 0.8;
+border: 1px solid #E4EAED;
+box-sizing: border-box;
+border-radius: 42px;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+padding: 21px 75px 16px 131px;
+margin-bottom: 16px;
+}
+.sinup-text{
+    font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+
+color: #000000;
+
+}
+.sinup-span{
+    font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: #000000;
+}
+.sinup-link{
+    color: #1DA1F2;;
+}
+.dialog{
+    border:none;
+    padding: 0;
+    margin: 0;
+}
+.div-d{
+    width: 750px;
+    padding: 30px;
+    text-align: left;
+}
+.d{
+    width: 100%;
+}
+.singup-b{
+    width: 100%;
+}
+.singup2-h2{
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 40px;
+}
+.sungup2-p{
+    font-size: 18px;
+line-height: 24px;
+
+color: #1DA1F2;
+}
+.singup2-h3{
+    font-weight: bold;
+font-size: 18px;
+line-height: 24px;
+}
+.singup2-text{
+    font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+
+color: #000000;
+
+opacity: 0.6;
+}
+.selct{
+    font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height */
+padding: 23px 31px 23px 20px;
+
+width: 180px;
+color: rgba(0, 0, 0, 0.6);
+margin-bottom: 64px;
+margin-left: 20px;
+}
+.s1{
+    width: 312px;
+    margin-right:0 ;
+}
+.imgs{
+    text-align: center;
+}

@@ -1,0 +1,93 @@
+.spans{
+    display: flex;
+    flex-wrap: wrap;
+    width: 347px;
+}
+.spans span{
+    font-weight: normal;
+font-size: 16px;
+line-height: 21px;
+
+color: #536471;
+margin-right: 15px;
+}
+.top{
+    padding: 20px;
+    padding-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.h3h{
+    font-weight: 600;
+font-size: 22px;
+line-height: 29px;
+
+/* Gray 3 */
+
+color: #828282;
+margin-top: 20px;
+}
+.btnl{
+    display: inline-block;
+    font-weight: bold;
+font-size: 17px;
+line-height: 100%;
+color: #FFFFFF;
+padding: 15px 30px;
+background: #1DA1F2;
+opacity: 0.4;
+box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.08);
+border-radius: 120px;
+}
+.img-icon{
+    margin-top: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 97px;
+    padding-right: 20px;
+}
+.img-icon div img{
+    margin-right: 23px;
+}
+.uz1{
+    padding-left: 20px;
+}
+.user1::before{
+        content: "";
+        display: inline-block;
+        width: 60px;
+        height: 60px;
+        background-image: url("../../img/Ellipse 6.png");
+        background-size:contain;
+        margin-right: 15px;
+        background-repeat: no-repeat;
+      
+
+}
+
+.user1{
+    display: flex;
+        margin-top: 15px;
+}
+.user2::before{
+    content: "";
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-image: url("../../img/Ellipse 6 (1).png");
+    background-size:contain;
+    margin-right: 15px;
+    background-repeat: no-repeat;
+}
+.user3::before{
+    content: "";
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-image: url("../../img/Ellipse 6 (2).png");
+    background-size:contain;
+    margin-right: 15px;
+    background-repeat: no-repeat;
+}
