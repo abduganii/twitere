@@ -32,7 +32,7 @@ function Login() {
 
     return (
         <div>
-            <img className="logo" src={logo1} width="40" />
+            <img className="logo" src={logo1} width="40" alt="s" />
            <h2 className="login-h2">Log in to Twitter</h2>
            <form onSubmit={handleLogin}>
                 <input   className="login-input" ref= {usernameRef}  type="text" placeholder="Phone number, email address" required />
@@ -40,7 +40,7 @@ function Login() {
                 <button className="login-btn">Log In</button>
             </form>
             <div className="span-div">
-                <a href="#" className="login-span">Forgot password?</a>
+                <a href="/" className="login-span">Forgot password?</a>
                 <a href="/singup" className="login-span">Sign up to Twitter</a>
             </div>
         </div>

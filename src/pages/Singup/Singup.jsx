@@ -31,9 +31,9 @@ function Singup() {
         
             <dialog className="dialog" ref={closeModal} open={true}>
                 <div className="sinup">
-                <img src={img1} width="850"  />
+                <img alt="ds" src={img1} width="850"  />
                 <div >
-                    <img src={img2} width="40" />
+                    <img alt="ds" src={img2} width="40" />
                     
                     <h1 className="sinup-h1">Happening now</h1>
                     <h2 className="sinup-h2">Join Twitter today</h2>
@@ -59,7 +59,7 @@ function Singup() {
             
             <dialog className="div-d" ref={openModal} open={false}>
                 <div className="imgs">
-                    <img className="logo2" src={img2} width="40" />
+                    <img alt="ds" className="logo2" src={img2} width="40" />
                 </div>
                 <h2 className="singup2-h2">Create an account</h2>
                 <form onSubmit= {handlesingup}>

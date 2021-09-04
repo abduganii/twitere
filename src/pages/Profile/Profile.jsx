@@ -1,6 +1,5 @@
 import "./profil.css"
 import { NavLink, useParams } from "react-router-dom"
-import useAuth from "../../hooks/useAuth";
 import users from "../../assets/data";
 import logo1 from "../../img/twitter-logo.png";
 import img2 from "../../img/Ellipse.png"
@@ -15,7 +14,7 @@ import img10 from "../../img/settings.png"
 
 
 function Profile() {
-    const [setToken] = useAuth(false)
+   
     const {username}= useParams()
     
     
@@ -37,15 +36,15 @@ function Profile() {
                     <img className="logotwiter" src={logo1} alt="" />
                     <ul className= "home-ul">
                         <li className="home-li"><NavLink  className="home-link" to="/" exact>Home</NavLink></li>
-                        <li className="home-li"><a className="home-link" href="#">Explore</a></li>
-                        <li className="home-li"><a className="home-link" href="#">Notifications</a></li>
-                        <li className="home-li"><a className="home-link" href="#">Messages</a></li>
-                        <li className="home-li"><a className="home-link" href="#">Bookmarks</a></li>
-                        <li className="home-li"><a className="home-link" href="#">Lists</a></li>
+                        <li className="home-li"><a className="home-link" href="/">Explore</a></li>
+                        <li className="home-li"><a className="home-link" href="/">Notifications</a></li>
+                        <li className="home-li"><a className="home-link" href="/">Messages</a></li>
+                        <li className="home-li"><a className="home-link" href="/">Bookmarks</a></li>
+                        <li className="home-li"><a className="home-link" href="/">Lists</a></li>
                         <li className="home-li">Profile</li>
-                        <li className="home-li"><a className="home-link" href="#">More</a></li>
+                        <li className="home-li"><a className="home-link" href="/">More</a></li>
                     </ul>
-                    <a className="btn" href="#">Tweet</a>
+                    <a className="btn" href="/">Tweet</a>
                     <div className="username">
                         <div>
                         <div> {foundUser().username} </div>
@@ -164,14 +163,14 @@ function Profile() {
                              <div> Mushtariy </div>
                              <span>@Mushtar565266</span>
                             </div>
-                            <a className="fbtn" href="#">Follow</a>
+                            <a className="fbtn" href="/">Follow</a>
                         </div>
                         <div className="username u2">
                             <div>
                              <div> Shuhratbek </div>
                              <span>@mrshukhrat</span>
                             </div>
-                            <a className="fbtn" href="#">Follow</a>
+                            <a className="fbtn" href="/">Follow</a>
                           
                         </div>
                         <p className="more"> show more</p>
