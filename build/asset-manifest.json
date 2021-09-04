@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b8b1101c.chunk.css",
+    "main.js": "/static/js/main.7cc713fa.chunk.js",
+    "main.js.map": "/static/js/main.7cc713fa.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.15dda538.js",
+    "runtime-main.js.map": "/static/js/runtime-main.15dda538.js.map",
+    "static/js/2.233e4ba5.chunk.js": "/static/js/2.233e4ba5.chunk.js",
+    "static/js/2.233e4ba5.chunk.js.map": "/static/js/2.233e4ba5.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.b8b1101c.chunk.css.map": "/static/css/main.b8b1101c.chunk.css.map",
+    "static/js/2.233e4ba5.chunk.js.LICENSE.txt": "/static/js/2.233e4ba5.chunk.js.LICENSE.txt",
+    "static/media/profil.css": "/static/media/Rectangle.494d134f.png",
+    "static/media/Rectangle 15.155ff583.png": "/static/media/Rectangle 15.155ff583.png",
+    "static/media/Rectangle 16 (1).546b2a1c.png": "/static/media/Rectangle 16 (1).546b2a1c.png",
+    "static/media/Rectangle 16.56d30548.png": "/static/media/Rectangle 16.56d30548.png",
+    "static/media/Rectangle 17 (1).87c13bb3.png": "/static/media/Rectangle 17 (1).87c13bb3.png",
+    "static/media/Rectangle 17.fe05957b.png": "/static/media/Rectangle 17.fe05957b.png",
+    "static/media/back-twitter.537f0183.png": "/static/media/back-twitter.537f0183.png",
+    "static/media/image 8.b496cfbc.png": "/static/media/image 8.b496cfbc.png",
+    "static/media/image.a3508bf1.png": "/static/media/image.a3508bf1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.15dda538.js",
+    "static/js/2.233e4ba5.chunk.js",
+    "static/css/main.b8b1101c.chunk.css",
+    "static/js/main.7cc713fa.chunk.js"
+  ]
+}
